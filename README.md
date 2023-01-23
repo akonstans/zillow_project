@@ -20,7 +20,7 @@ The intention behind this porject is to create a predictive model to aid in asse
 ## Initial Thoughts and Hypothesis
 I believe that neither bedroom count nor bathroom count will be a good indicator of home value since it does not take into account factors like total size, location, and other important factors. Perhaps combining the two into a single feature would be worthwhile. If it turns out to not be a good indicator even when combined the features likely can be dropped without significant impact on the model. I believe the largest driver behind price is going to be either total square footage or federal county id.
 
-##Planning
+## Planning
 - Create and use a wrangle.py to wrangle the data into a desired format
 - Explore the data using a combination of statistical tests and graphs to discover drivers behind property price
 - Develop a model that improves upon the baseline predicitons
