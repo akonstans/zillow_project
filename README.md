@@ -13,8 +13,8 @@ The intention behind this porject is to create a predictive model to aid in asse
 
 ## Questions to Answer
 - Is either bedroom count or bathroom count a good indicator of price?
-- Can I combine features to create a more accurate model?
-- Are there redundant features that are closely correlated and can be dropped?
+- Is total lot size a good driver of price?
+- Is FIPS(location) a driver of price? 
 - What is the largest driver behind price for the houses?
 
 ## Initial Thoughts and Hypothesis
