@@ -39,3 +39,9 @@ I believe that neither bedroom count nor bathroom count will be a good indicator
 | yearbuilt |  The Year the home was built |
 | square_footage |  Area of the lot in square feet |
 | fips | Federal Information Processing Standard code or simply a county code |
+
+## Takeaways and Conclusion
+- Square footage and county location were the greatest drivers of home price
+- The polynomial regression model performed the best
+- My initial hypothesis was correct, however there is room for improvment on the model given more time
+- If I had more time I would like to examine further features and use a couple different models to see if I can get more accurate results
