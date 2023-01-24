@@ -29,3 +29,13 @@ I believe that neither bedroom count nor bathroom count will be a good indicator
 - Compile a concise report that will identify the most important discoveries in a report notebook that can be presented in less than 5 min
 
 ## Data Dictionary
+
+|Feature | Definition|
+|-----------------|-----------|
+| tax_value | The total tax assessed value of the parcel |
+| bedrooms |  Number of bedrooms in home|
+| bathrooms |  Number of bathrooms in the home (can be fractional)|
+| square_footage |  Calculated total finished living area of the home |
+| yearbuilt |  The Year the home was built |
+| square_footage |  Area of the lot in square feet |
+| fips | Federal Information Processing Standard code or simply a county code |
