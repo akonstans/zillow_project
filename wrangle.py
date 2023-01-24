@@ -24,9 +24,8 @@ def prep_zillow(zil):
     '''
     zil = zil.rename(columns = {'bedroomcnt': 'bedrooms', 'bathroomcnt': 'bathrooms', 
                             'calculatedfinishedsquarefeet': 'square_footage', 
-                            'taxvaluedollarcnt': 'tax_value', 'taxamount': 'tax'})
-    zil = zil[['id', 'bedrooms', 'bathrooms', 'square_footage', 'tax_value', 'yearbuilt', 
-           'tax', 'fips']]
+                            'taxvaluedollarcnt': 'tax_value', 'lotsizesquarefeet': 'lot_size'})
+    zil = zil[['id', 'bedrooms', 'bathrooms', 'square_footage', 'lot_size', 'tax_value', 'yearbuilt', 'fips']]
     # getting dataframe into the right subset
     zil = zil.dropna()
     zil = zil.reset_index()
@@ -41,5 +40,4 @@ def wrangle_zillow():
     The remove outliers function comes from the custom library and is documented there as well.
     '''
     zil = prep_zillow(acquire_zillow())
-    zil = nl.remove_outliers(zil)
     return zil
